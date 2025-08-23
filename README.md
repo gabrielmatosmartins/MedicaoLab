@@ -55,7 +55,7 @@ Os dados serão salvos no arquivo `repo_grathQL.txt`.
 - Tópicos
 
 
-### Sprint 2
+## Sprint 2
 
 ### Execução
 ```

@@ -16,24 +16,27 @@ Este projeto coleta dados de repositórios do GitHub usando a API GraphQL para a
    
    > **Nota**: Nunca compartilhe seu token do GitHub. O arquivo `.env` está incluído no `.gitignore` para evitar que seja acidentalmente compartilhado.
 
-## Uso
+## Sprint 1
 
-Execute o script principal para coletar dados de 100 repositórios relacionados a microserviços:
+
+### Execução
+
+Execute o script relacionado à Sprint 1 para coletar dados de 100 repositórios relacionados a microserviços:
 
 ```
-python main.py
+python main_sprint_1.py
 ```
 
 Os dados serão salvos no arquivo `repo_grathQL.txt`.
 
-## Arquivos
+### Arquivos
 
 - `main.py`: Script principal para coleta de dados
 - `.env`: Arquivo de configuração com o token do GitHub (não incluído no repositório)
 - `repo_grathQL.txt`: Arquivo de saída com os dados coletados
 - `test_with_sample_data.py`: Script para gerar e analisar dados de amostra
 
-## Métricas Coletadas
+### Métricas Coletadas
 
 - Nome e proprietário do repositório
 - URL e homepage
@@ -50,3 +53,15 @@ Os dados serão salvos no arquivo `repo_grathQL.txt`.
 - Branch principal
 - Status (arquivado, fork, template)
 - Tópicos
+
+
+### Sprint 2
+
+### Execução
+```
+main python_sprint_2.py
+```
+
+Os dados coletados de 1000 repositórios serão salvos no arquivo `repositorios_populares_github.csv`.
+
+Documentacão de padrão de dados coletados: https://github.com/gabrielmatosmartins/MedicaoLab/blob/main/Medicao/padrao_dados_csv.md

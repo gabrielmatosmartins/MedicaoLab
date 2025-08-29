@@ -29,6 +29,13 @@ Com base nas questões de pesquisa (RQs) definidas no laboratório, foram elabor
 **Métrica**: Linguagem primária de cada um desses repositórios
 **Justificativa**: As linguagens mais populares têm comunidades maiores, mais recursos e ferramentas, facilitando o desenvolvimento de projetos populares.
 
+
+### H6: Sistemas populares possuem um alto percentual de issues fechadas
+**Hipótese**: Repositórios populares apresentam um percentual elevado de issues fechadas (esperado >70%), refletindo boa manutenção e engajamento da comunidade.
+**Métrica**: Percentual issues fechadas= issues_fechadas ÷ total_issues (cálculo por repositório e análise da mediana)
+**Justificativa**: Métrica: Projetos mais populares tendem a ter uma comunidade ativa e equipes de manutenção mais organizadas, o que possibilita triagem, resolução e fechamento de issues de forma regular, garantindo maior qualidade do software.
+​
+
 ## Metodologia de Análise
 
 Para analisar as hipóteses acima, seguiremos a seguinte metodologia:

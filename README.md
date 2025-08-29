@@ -7,11 +7,15 @@ Este projeto coleta dados de repositórios do GitHub usando a API GraphQL para a
 1. Clone o repositório
 2. Instale as dependências:
 
-   ```pip install requests python-dotenv```
+   ```
+   pip install requests python-dotenv
+   ```
 
 3. Crie um arquivo `.env` na raiz do projeto com seu token do GitHub:
 
-   ```GITHUB_TOKEN="seu_token_aqui"```
+   ```
+   GITHUB_TOKEN="seu_token_aqui"
+   ```
    
 
 ## Sprint 1
@@ -21,7 +25,9 @@ Este projeto coleta dados de repositórios do GitHub usando a API GraphQL para a
 
 Execute o script relacionado à Sprint 1 para coletar dados de 100 repositórios relacionados a microserviços:
 
-```python main_sprint_1.py```
+```
+python main_sprint_1.py
+```
 
 Os dados serão salvos no arquivo `repo_grathQL.txt`.
 
@@ -70,5 +76,7 @@ Acesso no link do realtorio final:https://github.com/gabrielmatosmartins/Medicao
 
 Para rodar o código que gera os gráfico execute:
 
-```python graficos.py```
+```
+python graficos.py
+```
 

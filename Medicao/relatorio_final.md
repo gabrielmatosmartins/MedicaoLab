@@ -13,7 +13,7 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 * RQ05 (H5): Sistemas populares usam linguagens populares (JS, Python, TS).
 * RQ06: Sistemas populares possuem alto percentual de issues fechadas.
 ** Métrica: razão entre número de issues fechadas / total de issues.
-*RQ07 (Bônus): Sistemas em linguagens populares recebem mais contribuições, mais releases e atualizações mais frequentes que os outros.
+* RQ07 (Bônus): Sistemas em linguagens populares recebem mais contribuições, mais releases e atualizações mais frequentes que os outros.
 
 ## 2. Metodologia
 
@@ -37,25 +37,25 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 ## 3. Resultados
 
 ## H1 - Sistemas populares são maduros
-![Idade dos repositórios](Graficos/h1_idade_repositorios.png)
+![Idade dos repositórios](../Graficos/h1_idade_repositorios.png)
 
 ## H2: Muita contribuição externa
-![PRs mescladas](Graficos/h2_prs_mescladas.png)
+![PRs mescladas](../Graficos/h2_prs_mescladas.png)
 
 ## H3 - Frequência de Releases
-![Distribuição de releases](Graficos/h3_releases.png)
+![Distribuição de releases](../Graficos/h3_releases.png)
 
 ## H4 - Atualizações recentes
-![Dias desde última atualização](Graficos/h4_atualizacoes.png)
+![Dias desde última atualização](../Graficos/h4_atualizacoes.png)
 
 ## H5 - Linguagens mais utilizadas
-![Linguagens mais utilizadas](Graficos/h5_linguagens.png)
+![Linguagens mais utilizadas](../Graficos/h5_linguagens.png)
 
 ## H6 - % de Issues Fechadas
-![Issues fechadas](Graficos/h6_issues.png)
+![Issues fechadas](../Graficos/h6_issues.png)
 
 ## RQ07 (Bônus) - Comparação entre linguagens
-![PRs, Releases e Atualizações por linguagem](Graficos/rq07_por_linguagem.png)
+![PRs, Releases e Atualizações por linguagem](../Graficos/rq07_por_linguagem.png)
 
 ## 4. Discussão
 

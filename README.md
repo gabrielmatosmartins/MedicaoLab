@@ -70,11 +70,13 @@ Documentacão de padrão de dados coletados: https://github.com/gabrielmatosmart
 
 ## Sprint 3
 
-Foram geradas os Gráficos na pasta Graficos e o relatorio está em Medicoes com nome: `relatorio_final.md`
+Foram geradas as imagens dos Gráficos na pasta Graficos através da execução do arquivo graficos.py para as análises.
+O relatório está na pasta Medições com nome: `relatorio_final.md`
 
-Acesso no link do realtorio final:https://github.com/gabrielmatosmartins/MedicaoLab/blob/main/Medicao/relatorio_final.md
+Acesso no link do relatório final:
+https://github.com/gabrielmatosmartins/MedicaoLab/blob/main/Medicao/relatorio_final.md
 
-Para rodar o código que gera os gráfico execute:
+Para executar o código que gera os gráficos, digite no terminal:
 
 ```
 python graficos.py

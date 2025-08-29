@@ -170,7 +170,7 @@ def plot_h5_languages_analysis(df):
     axes[0,1].pie(list(top_langs.head(5).values) + [top_langs.iloc[5:].sum()],
                   labels=list(top_langs.head(5).index) + ['Outras'],
                   autopct="%1.1f%%", startangle=90)
-    axes[0,1].set_title("Top 5 Línguas")
+    axes[0,1].set_title("Top 5 Linguagens")
     top5 = df[df['primary_language'].isin(top_langs.head(5).index)]
     if 'merged_pr_count' in df.columns:
         sns.boxplot(data=top5, x="primary_language", y="merged_pr_count", ax=axes[1,0])

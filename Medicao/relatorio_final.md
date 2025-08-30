@@ -52,7 +52,7 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 ![Idade dos repositórios](../Graficos/h1_idade_repositorios.png)
 
 **Análise**: O gráfico apresenta dois painéis:
-- **Histograma**: Mostra a distribuição da idade dos repositórios em anos. A linha vermelha tracejada indica o limiar de 5 anos da hipótese, enquanto a linha verde representa a mediana observada.
+- **Histograma**: Mostra a distribuição da idade dos repositórios em anos. A linha vermelha tracejada indica média de 5 anos da hipótese, enquanto a linha verde representa a mediana observada.
 - **Boxplot**: Visualiza a distribuição estatística da idade, destacando quartis, mediana e outliers.
 
 **Estatísticas principais**:
@@ -71,7 +71,7 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 **Estatísticas principais**:
 - **Mediana de PRs**: ~142 PRs
 - **Intervalo de Confiança 95%**: [89, 198] PRs
-- **Interpretação**: A mediana supera o limiar de 100 PRs, mas há grande variabilidade. Repositórios como React, TensorFlow e Kubernetes concentram milhares de PRs, enquanto muitos projetos menores têm poucas contribuições.
+- **Interpretação**: A mediana supera a média de 100 PRs, mas há grande variabilidade. Repositórios como React, TensorFlow e Kubernetes concentram milhares de PRs, enquanto muitos projetos menores têm poucas contribuições.
 
 ### 3.3 H3 - Frequência de Releases
 
@@ -84,7 +84,7 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 **Estatísticas principais**:
 - **Mediana de releases**: ~15 releases
 - **Intervalo de Confiança 95%**: [12, 18] releases
-- **Interpretação**: A mediana supera o limiar de 10 releases, indicando que projetos populares mantêm um ciclo regular de lançamentos. Projetos como React, Vue.js e Flutter lideram com centenas de releases.
+- **Interpretação**: A mediana supera o média de 10 releases, indicando que projetos populares mantêm um ciclo regular de lançamentos. Projetos como React, Vue.js e Flutter lideram com centenas de releases.
 
 ### 3.4 H4 - Atualizações recentes
 
@@ -149,7 +149,7 @@ O objetivo é verificar a validade de hipóteses informais relacionadas à popul
 
 **RQ01 (H1)**: A idade mediana de 7.2 anos confirma que projetos populares são maduros e estabelecidos no ecossistema.
 
-**RQ02 (H2)**: A mediana de 142 PRs supera o limiar de 100, indicando forte engajamento da comunidade.
+**RQ02 (H2)**: A mediana de 142 PRs supera a média de 100, indicando forte engajamento da comunidade.
 
 **RQ03 (H3)**: A mediana de 15 releases demonstra que projetos populares mantêm ciclos regulares de lançamento.
 
